@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crew</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/crew.css" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo" aria-label="Home">
+      <svg viewBox="0 0 48 48" width="48" height="48" aria-hidden="true">
+        <circle cx="24" cy="24" r="24" fill="#fff" />
+        <path d="M24 8c1 9 4 13 16 16-12 3-15 7-16 16-1-9-4-13-16-16 12-3 15-7 16-16Z" fill="#0b0d17" />
+      </svg>
+    </a>
+    <span class="line"></span>
+    <nav class="nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html"><b>00</b> Home</a></li>
+        <li><a href="destination-mars.html"><b>01</b> Destination</a></li>
+        <li><a href="crew-engineer.html"><b>02</b> Crew</a></li>
+        <li><a href="technology-capsule.html"><b>03</b> Technology</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="crew">
+    <h2 class="page-title"><span>02</span> Meet your crew</h2>
+
+    <div class="content">
+      <section class="text" id="crew-text">
+        <h4 class="role" id="role">Commander</h4>
+        <h1 class="name" id="name">Douglas Hurley</h1>
+        <p class="bio" id="bio">
+           Douglas Gerald Hurley is an American engineer, former Marine Corps pilot 
+  and former NASA astronaut. He launched into space for the third time as 
+        commander of Crew Dragon Demo-2.
+      </p>
+
+        <div class="dots" aria-label="Crew members">
+          <a href="crew-commander.html" class="dot active" aria-label="Douglas Hurley"></a>
+          <a href="crew-specialist.html" class="dot" aria-label="Mark Shuttleworth"></a>
+          <a href="crew-pilot.html" class="dot" aria-label="Victor Glover"></a>
+          <a href="crew-engineer.html" class="dot" aria-label="Anousheh Ansari"></a> 
+        </div>
+      </section>
+
+      <div class="photo" id="photo">
+        <a class="crew-arrow" data-direction="previous" href="crew-engineer.html" aria-label="Previous crew member"><span aria-hidden="true">&lsaquo;</span></a>
+        <img id="crew-img" src="assets/images/crew/image-douglas-hurley.png" alt="Douglas Hurley, commander" />
+        <a class="crew-arrow" data-direction="next" href="crew-specialist.html" aria-label="Next crew member"><span aria-hidden="true">&rsaquo;</span></a>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/site.js" defer></script>
+</body>
+</html>

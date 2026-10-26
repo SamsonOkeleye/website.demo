@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Destination</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/destination-mars.css" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo" aria-label="Home">
+      <svg viewBox="0 0 48 48" width="48" height="48" aria-hidden="true">
+        <circle cx="24" cy="24" r="24" fill="#fff" />
+        <path d="M24 8c1 9 4 13 16 16-12 3-15 7-16 16-1-9-4-13-16-16 12-3 15-7 16-16Z" fill="#0b0d17" />
+      </svg>
+    </a>
+    <span class="line"></span>
+    <nav class="nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html"><b>00</b> Home</a></li>
+        <li><a href="destination-mars.html" class="active"><b>01</b> Destination</a></li>
+        <li><a href="crew-engineer.html"><b>02</b> Crew</a></li>
+        <li><a href="technology-vehicle.html"><b>03</b> Technology</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="destination">
+    <h2 class="page-title"><span>01</span> Pick your destination</h2>
+
+    <div class="content">
+      <div class="planet">
+        <img src="assets/images/destinations/image-moon.png" alt="Earth's Moon" />
+      </div>
+    
+
+      <section class="info">
+        <ul class="tabs">
+          <li><a href="destination-moon.html" class="active">Moon</a></li>
+          <li><a href="destination-mars.html">Mars</a></li>
+          <li><a href="destination-europa.html">Europa</a></li>
+          <li><a href="destination-titan.html">Titan</a></li>
+        </ul>
+
+        <h1>Moon</h1>
+        <p> See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+            regain perspective and come back refreshed. While you’re there, take in some history 
+            by visiting the Luna 2 and Apollo 11 landing sites.
+
+
+        </p>
+
+        <div class="stats">
+          <div>
+            <span class="label">Avg. distance</span>
+            <span class="value">384,400 km</span>
+          </div>
+          <div>
+            <span class="label">Est. travel time</span>
+            <span class="value"> 3 days</span>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  
+  <script src="js/site.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Technology</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400&family=Barlow+Condensed:wght@400;700&family=Bellefair&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/technology.css" />
+  <link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo" aria-label="Home">
+      <svg viewBox="0 0 48 48" width="48" height="48" aria-hidden="true">
+        <circle cx="24" cy="24" r="24" fill="#fff" />
+        <path d="M24 8c1 9 4 13 16 16-12 3-15 7-16 16-1-9-4-13-16-16 12-3 15-7 16-16Z" fill="#0b0d17" />
+      </svg>
+    </a>
+    <span class="line"></span>
+    <nav class="nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html"><b>00</b> Home</a></li>
+        <li><a href="destination-mars.html"><b>01</b> Destination</a></li>
+        <li><a href="crew-engineer.html"><b>02</b> Crew</a></li>
+        <li><a href="technology-spaceport.html" class="active"><b>03</b> Technology</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="tech">
+    <h2 class="page-title"><span>02</span> Space launch 101</h2>
+
+    <div class="content">
+      <div class="steps" aria-label="Technology">
+        <a href="technology-vehicle.html" class="step">1</a>
+        <a href="technology-spaceport.html" class="step active">2</a>
+        <a href="technology-capsule.html" class="step">3</a>
+      </div>
+
+      <section class="text" id="tech-text">
+        <h4 class="label">The terminology…</h4>
+        <h1 class="title" id="title">Spaceport</h1>
+        <p class="desc" id="desc">
+          A spaceport or cosmodrome is a site for launching (or receiving)
+          spacecraft, by analogy to the seaport for ships or airport for
+          aircraft. Based in the famous Cape Canaveral, our spaceport is ideally
+          situated to take advantage of the Earth’s rotation for launch.
+        </p>
+      </section>
+
+      <div class="picture" id="picture">
+        <img id="tech-img" src="assets/images/technology/image-spaceport-portrait.jpg" alt="Spaceport" />
+      </div>
+    </div>
+  </main>
+
+  <script src="js/site.js" defer></script>
+</body>
+</html>
